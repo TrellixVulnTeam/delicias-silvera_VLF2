@@ -1,0 +1,47 @@
+ div.footer {
+  bottom: 0 !important;
+  position: absolute !important;
+  height: 100px !important;
+  color: $main-color !important;
+  width: 100%;
+}
+
+div.footer {
+  padding-left: 0px;
+  bottom: 0;
+  width: 100%;
+}
+
+/*BLOQUE*/
+ .footer {
+  position:absolute;
+  bottom:0px;
+  width:100%;
+  right: 0;
+  left: 0;
+}
+
+.footer--grad {
+  background: #B24592;  
+  background: -webkit-linear-gradient(to bottom, #F15F79, #B24592);  
+  background: linear-gradient(to bottom, #F15F79, #B24592); 
+}
+
+@media (min-width: 320px) {
+  form {
+   padding: $standard-padding;
+   
+  }
+}
+
+@media (min-width: 1200px) {
+  form {
+    padding-right: $standard-padding;
+
+   }
+}
+
+
+
+
+
