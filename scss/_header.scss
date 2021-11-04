@@ -30,13 +30,15 @@
 
 .nav-link {
   color: $main-color !important;
+  font-family: $font-lato !important;
+  font-size: 20px;
 }
 
 .nav-link:hover {
   color: $main-color !important;
   transition: all 0.5s;
   text-decoration: underline;
-  transform: scale(1.15);
+  transform: scale(1.1);
 }
 
 .navbar-toggler {
@@ -62,6 +64,8 @@
 
 .dropdown-item--style {
   color: #cc1790 !important;
+  font-family: $font-lato;
+  font-size: 16px;
 }
 
 .dropdown-item:hover {

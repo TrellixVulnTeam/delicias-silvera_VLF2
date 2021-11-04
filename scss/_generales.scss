@@ -72,6 +72,10 @@ form p, h5 {
   font-style: italic;
 }
 
+.bigForm input, select {
+ margin-bottom: 16px !important;
+}
+
 .modal-title, .float-start, .card-title, .section--subtitle {
   color: $tertiary-color !important;
 }

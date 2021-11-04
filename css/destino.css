@@ -23,13 +23,15 @@
   margin: 16px; }
 
 .nav-link {
-  color: white !important; }
+  color: white !important;
+  font-family: "Lato" !important;
+  font-size: 20px; }
 
 .nav-link:hover {
   color: white !important;
   transition: all 0.5s;
   text-decoration: underline;
-  transform: scale(1.15); }
+  transform: scale(1.1); }
 
 .navbar-toggler {
   color: white; }
@@ -50,7 +52,9 @@
   text-decoration: none; }
 
 .dropdown-item--style {
-  color: #cc1790 !important; }
+  color: #cc1790 !important;
+  font-family: "Lato";
+  font-size: 16px; }
 
 .dropdown-item:hover {
   transition: all 0.5s;
@@ -152,6 +156,9 @@ form p, h5 {
 .italic-text {
   font-style: italic; }
 
+.bigForm input, select {
+  margin-bottom: 16px !important; }
+
 .modal-title, .float-start, .card-title, .section--subtitle {
   color: #F15F79 !important; }
 
@@ -250,7 +257,9 @@ div.footer {
 div.footer {
   padding-left: 0px;
   bottom: 0;
-  width: 100%; }
+  width: 100%;
+  vertical-align: middle;
+  font-size: 10px !important; }
 
 /*BLOQUE*/
 .footer {
