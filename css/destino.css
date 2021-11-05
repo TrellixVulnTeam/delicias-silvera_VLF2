@@ -89,7 +89,7 @@
     font-size: 48px !important;
     text-align: center;
     padding-left: 100px;
-    padding-right: 300px; } }
+    padding-right: 230px; } }
 
 html {
   min-height: 100%;
@@ -218,7 +218,7 @@ svg:hover {
     font-family: "Cookie", cursive; }
   body {
     margin-top: 0;
-    margin-bottom: 400px !important; }
+    margin-bottom: 300px !important; }
   .center {
     margin: auto;
     width: 90%;
@@ -234,7 +234,7 @@ svg:hover {
 @media (min-width: 1200px) {
   body {
     margin-top: 0;
-    margin-bottom: 300px !important; }
+    margin-bottom: 200px !important; }
   .center {
     margin: auto;
     width: 60%;
