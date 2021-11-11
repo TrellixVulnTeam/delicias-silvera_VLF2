@@ -143,6 +143,9 @@ form a {
   font-family: "Lato" !important;
   font-size: 16px; }
 
+form div {
+  padding-bottom: 16px; }
+
 form p, h5 {
   color: white !important; }
 

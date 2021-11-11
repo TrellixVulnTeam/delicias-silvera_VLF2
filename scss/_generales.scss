@@ -55,6 +55,10 @@ form a {
   font-size: $standard-font-size;
 }
 
+form div {
+  padding-bottom: 16px;
+}
+
 form p, h5 {
   color: $main-color !important;
 }
