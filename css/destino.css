@@ -25,7 +25,7 @@
 .nav-link {
   color: white !important;
   font-family: "Lato" !important;
-  font-size: 20px; }
+  font-size: 16px; }
 
 .nav-link:hover {
   color: white !important;
@@ -87,9 +87,11 @@
 @media (min-width: 1200px) {
   .navbar-brand__titulo {
     font-size: 48px !important;
-    text-align: center;
-    padding-left: 100px;
-    padding-right: 230px; } }
+    text-align: center; }
+  .navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%); } }
 
 html {
   min-height: 100%;
@@ -183,7 +185,8 @@ form p, h5 {
 
 /*BLOQUE*/
 .section {
-  text-align: center !important; }
+  text-align: center !important;
+  padding-bottom: 50px; }
 
 .section--welcome {
   font-size: 32px !important; }
@@ -264,13 +267,18 @@ div.footer {
   vertical-align: middle;
   font-size: 10px !important; }
 
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
 /*BLOQUE*/
 .footer {
   position: absolute;
   bottom: 0px;
   width: 100%;
-  right: 0;
-  left: 0; }
+  right: 0px !important;
+  left: 0px !important; }
 
 .footer--grad {
   background: #B24592;

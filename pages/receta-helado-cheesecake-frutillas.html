@@ -8,6 +8,7 @@
     content="recetas, recetas dulces, receta de helado, receta de paletas heladas, recetas con frutillas">
   <meta name="description" content="Recetas de paleta helada de cheesecake de frutilla de María Noel Silvera">
   <title>Las delicias de Noe - Receta de paletas heladas de frutilla</title>
+  <link rel="icon" href="../img/wedding-cake.png">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <link rel="stylesheet" href="../css/destino.css">
@@ -55,7 +56,7 @@
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="dropdown07XL" data-bs-toggle="dropdown"
-                aria-expanded="false">Recetas</a>
+                aria-expanded="false">RECETAS</a>
               <ul class="dropdown-menu" aria-labelledby="dropdown07XL">
                 <li><a class="dropdown-item dropdown-item--style" href="./rececetas-dulces.html">Recetas Dulces</a></li>
                 <div class="dropdown-divider"></div>
@@ -66,19 +67,19 @@
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./tienda.html">Tienda Online</a>
+              <a class="nav-link" href="./tienda.html">TIENDA ONLINE</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./about.html">Sobre mí</a>
+              <a class="nav-link" href="./contacto.html">CONTACTO</a>
             </li>
           </ul>
           <img src="../img/cartWhite.png" alt="carrito" height="32">
+          <button type="button" class="btn menuIcons" data-bs-toggle="modal" data-bs-target="#modalForm"><img
+            src="../img/loginWhite.png" alt="login" height="32">
+        </button>
           <form>
             <input class="form-control" type="text" placeholder="Buscar" aria-label="Search">
           </form>
-          <button type="button" class="btn menuIcons" data-bs-toggle="modal" data-bs-target="#modalForm"><img
-              src="../img/loginWhite.png" alt="login" height="32">
-          </button>
         </div>
       </div>
       <div class="modal fade" id="modalForm" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -170,8 +171,8 @@
 
   </main>
   <div class="container-fluid">
-    <footer class="py-1 footer footer--grad">
-      <div class="row ">
+    <footer class="py- footer footer--grad">
+      <div class="row">
         <div class="col-md-2 mx-auto">
           <ul class="nav flex-row">
             <li class="ms-3"><a class="link-light" href="https://www.twitter.com"><svg class="bi" width="24" height="24" alt="Twitter">
@@ -185,19 +186,12 @@
                 </svg></a></li>
           </ul>
         </div>
-        <div class="col-md-3 mx-auto white">
-          <ul class="nav flex-row white">
-            <li class="nav-item mb-2 white"><a href="../index.html" class="nav-link p-0">Inicio</a></li>
-            <li class="nav-item mb-2"><a href="./contacto.html" class="nav-link p-0">Contacto</a></li>
-            <li class="nav-item mb-2"><a href="./terms.html" class="nav-link p-0">Términos & condiciones</a>
-            </li>
-          </ul>
-        </div>
-        <div class="col-md-3 mx-auto">
+      
+        <div class="col-md-4 mx-auto">
           <form>
             <p>Suscribite a mi newsletter!</p>
-            <div class="d-flex w-100 gap-2 form-group">
-              <input class="form-control item" type="email" name="email" id="email" placeholder="abc@123.com" required>
+            <div class="d-flex w-200 gap-2 form-group">
+              <input class="form-control item" type="email" name="email" id="email" placeholder="abc@123.com" size="1400" required>
               <button class="btn btn-primary btn-block create-account" type="submit">Suscribir</button>
             </div>
         </div>

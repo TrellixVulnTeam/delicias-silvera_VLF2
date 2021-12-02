@@ -31,7 +31,7 @@
 .nav-link {
   color: $main-color !important;
   font-family: $font-lato !important;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 .nav-link:hover {
@@ -112,8 +112,12 @@
   .navbar-brand__titulo {
     font-size: $standard-font-size*3 !important;
     text-align: center;
-    padding-left: 100px;
-    padding-right: 230px;
+  }
+
+  .navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
   }
 }
 
