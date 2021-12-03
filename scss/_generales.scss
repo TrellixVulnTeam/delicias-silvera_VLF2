@@ -67,6 +67,10 @@ form p, h5 {
   color: black !important;
 }
 
+.card {
+  text-align: center;
+}
+
 .badge {
   background-color: $tertiary-color;
 }
@@ -178,6 +182,10 @@ svg:hover{
         margin-bottom: 50px;
         width: 80%;
         height: auto;
+      }
+
+      .navbar-nav {
+        padding-left: 20px !important;
       }
 }
 
